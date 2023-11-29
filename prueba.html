@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pruebas</title>
+        <style>
+            table, th, td{
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <hr>
+        
+        <form action="prueba.html" method="get" name="datos_personales">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+            <br>
+            <label for="apellidos">Apellidos</label>
+            <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos">
+            <br>
+            <table style="border: 0px;">
+                <tr>
+                    <td style="border: 0px;">
+                        <label for="genero">Género</label>
+                    </td>
+                    <td style="border: 0px;">
+                        <span>Hombre</span>
+                        <input type="radio" name="genero" id="Hombre" value="hombre" checked>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: 0px;"></td>
+                    <td style="border: 0px;">
+                        <span>Mujer</span>
+                        <input type="radio" name="genero" id="Mujer" value="mujer">
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+
+        <hr>
+        <br>
+        <hr>
+        <header>Esto es un header</header>
+        <hr>
+        <hr>
+        <a href="https://www.debian.org/index.es.html" target="_blank">
+            <img src="https://cdn.pixabay.com/photo/2017/01/31/15/33/linux-2025130_1280.png" width="125" height="150" />
+        </a>
+        <hr>
+        <p>Hola
+            manola
+        </p>
+        <p>Hola <br>
+            manola
+        </p>
+        <img src="usuario.png" alt="Usuario" height="50" width="50">
+        <!-- Un comentario -->
+        <hr>
+        <ul>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+            <li>Elemento 4</li>
+        </ul>
+        <ol>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+            <li>Elemento 4</li>
+            <li>Elemento 5</li>
+        </ol>
+        <hr>
+
+        <table>
+            <tr>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+        </table>
+        <hr>
+
+        <table>
+            <tr>
+                <th>1</th>
+                <th>1</th>
+                <th>1</th>
+                <th>1</th>
+            </tr>
+            <tr>
+                <td colspan="4">4 columnas</td>
+            </tr>
+        </table>
+        <hr>
+
+        <table>
+            <tr>
+                <td rowspan="2">1</td>
+                <td rowspan="2">2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+        </table>
+    </body>
+</html>
