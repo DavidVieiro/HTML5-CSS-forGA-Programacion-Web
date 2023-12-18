@@ -1,0 +1,107 @@
+.titulo_principal {
+    color: red;
+}
+p.texto {
+    color: blue;
+}
+p.especial {
+    text-decoration: underline;
+}
+/* afecta a las etiquetas P dentro de DIV */
+div p {
+    color: green;
+    text-align: center;
+}
+/* afecto a las etiquetas DIV dentro de otras DIV */
+div div {
+    width: 200px;
+    color: white;
+    background-color: black;
+}
+.bordes {
+    margin-top: 20px;
+    background-color: black;
+    border-style: solid;
+    border-color: red;
+    border-radius: 5px;
+    color: white;
+    width: 400px;
+    height: 200px;
+}
+/* para centrar un DIV se usa otro div padre con
+ "condisplay: grid;" y en el hijo "place-self: center;" */
+.div_padre {
+    display: grid; 
+    background-color: yellow;
+    width: 100%;
+    height: 300px;
+}
+.div_centrado {
+    place-self: center;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+.div_margins {
+    color: white;
+    background-color: red;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 40px;
+    height: 200px;
+}
+.div_padding {
+    color: white;
+    background-color: coral;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    height: 120px;
+}
+table {
+    border-collapse: collapse;
+}
+th, td {
+    border: solid black 1px;
+    padding: 10px;
+}
+th {
+    background-color: aqua;
+    
+}
+/* recolorear la cabezera cando se para el raton por encima (Selectors)*/
+th:hover {
+    background-color:deepskyblue;
+}
+/* recolorear las filas de la tabla impares  (Selectors)*/
+tr:nth-child(even) {
+    background-color: lightyellow;
+}
+.sombra_div {
+    border: solid 1px black;
+    padding: 5px;
+    width: 200px;
+    height: 100px;
+    box-shadow: 5px 10px red;
+}
+.listas {
+    list-style-type: square;
+    list-style-position: inside;
+    padding-left: 5px;
+}
+.elemento_centro {
+    text-align: center;
+    width: 200px;
+    margin: 0px auto;
+    background-color: aquamarine;
+}
+h1 {
+    font-size:xx-large;
+    font-size:
+xx-small;
+    font-family:Arial, Helvetica, sans-serif;
+}
